@@ -1,0 +1,1 @@
+.grid-skills{display:grid;justify-items:center;grid-template-columns:repeat(auto-fit, minmax(8rem, 1fr))}
