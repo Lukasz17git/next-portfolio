@@ -5,10 +5,12 @@ export const nunito = Nunito_Sans({
    subsets: ['latin'],
    variable: '--font-nunito',
    weight: ["400", "700", "900"],
+   preload: true,
 })
 
 export const abril = Abril_Fatface({
    subsets: ['latin'],
    variable: '--font-abril',
    weight: ["400"],
+   preload: true,
 })

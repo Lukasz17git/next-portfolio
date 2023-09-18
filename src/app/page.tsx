@@ -1,17 +1,26 @@
 "use client"
 
+   "15:39:08"
+
 import Button from "@/_components_/Button"
+import { useEffect, useState } from "react"
+import MyButton from "@/components/MyButton"
+
+const wait = (ms: number) => new Promise(res => setTimeout(res, ms))
 
 export default function Home() {
 
-   console.log('home rendered')
+   const name = 'lucas'
+
+   console.log('Home rendered', name)
 
    return (
       <div className='frcc tf-sans'>
          Hello World
          <h1>Test</h1>
          <h2 className='tf-abril'>Abril</h2>
-         <Button />
+         <Button name={name} />
+         <MyButton />
       </div>
    )
 }
