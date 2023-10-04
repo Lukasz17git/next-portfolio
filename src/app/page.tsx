@@ -1,9 +1,4 @@
-"use client"
-
-   "15:39:08"
-
 import Button from "@/_components_/Button"
-import { useEffect, useState } from "react"
 import MyButton from "@/components/MyButton"
 
 const wait = (ms: number) => new Promise(res => setTimeout(res, ms))
