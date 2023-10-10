@@ -2,7 +2,7 @@
 
 const Projects = () => {
   return (
-    <div>projects Projects</div>
+    <div>Projects page or section</div>
   )
 }
 export default Projects

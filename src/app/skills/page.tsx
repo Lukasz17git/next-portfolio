@@ -2,7 +2,7 @@
 
 const Skills = () => {
    return (
-      <div>skills Skills</div>
+      <div>skills page or section</div>
    )
 }
 
